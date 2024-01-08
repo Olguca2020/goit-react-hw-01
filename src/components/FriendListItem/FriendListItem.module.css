@@ -1,0 +1,15 @@
+.status.red {
+    color: red;
+}
+.status.green {
+    color: green;
+}
+.name{
+ 
+   font-size:xx-large;
+   margin-bottom: 10px;
+}
+.status{
+    font-size: large;
+    margin-top: 0;
+    }
