@@ -10,7 +10,7 @@ export const FriendList = ({ friends }) => {
           <FriendListItem 
             avatar={friend.avatar}
             name={friend.name}
-            isOnline={friend.isOnline?'online':'offline'}
+            isOnline={friend.isOnline}
           />
         </li>
       ))}

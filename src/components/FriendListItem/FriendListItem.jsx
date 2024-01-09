@@ -12,7 +12,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
           [css.red]: !isOnline,
         })}
       >
-        {isOnline}
+        {isOnline?'Online':'Offline'}
       </p>
     </div>
   );
