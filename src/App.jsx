@@ -1,11 +1,11 @@
 
 import './App.css'
 import { Profile } from "../src/components/Profile/Profile";
-import userData from '../src/components/userData.json';
+import userData from './data/userData.json'
 import { FriendList } from './components/FriendList/FriendList';
-import friends from '../src/components/friends.json';
+import friends from './data/friends.json';
 import { TransactionHistoryBody } from './components/TransactionHistory/TransactionHistoryBody';
-import transaction from '../src/components/transactions.json'
+import transaction from './data/transactions.json'
 
 function App() {
   
